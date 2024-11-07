@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   background-color: #8a2be1;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   height: 100vh;
+}
+.circle {
+    background-color: #fff;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 100%;
+    margin: 0.25rem;
+}
+.circle-1 {
+    animation: circle-1-animation 1.5s ease 0ms infinite;
+}
+@keyframes circle-1-animation {
+    0% {
+        transform: scale(0, 0);
+    }
+    50% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(0, 0);
+    }
+}
+.circle-2 {
+    animation: circle-2-animation 1.5s ease 250ms infinite;
+}
+@keyframes circle-2-animation {
+    0% {
+        transform: scale(0, 0);
+    }
+    50% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(0, 0);
+    }
+}
+.circle-3 {
+    animation: circle-3-animation 1.5s ease 500ms infinite;
+}
+@keyframes circle-3-animation {
+    0% {
+        transform: scale(0, 0);
+    }
+    50% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(0, 0);
+    }
+}
